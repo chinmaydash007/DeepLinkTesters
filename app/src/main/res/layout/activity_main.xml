@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="MainActivityBinding">
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="136dp"
+            android:text="Open Visit app"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/clientIdEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="Client ID Ex. (axis-398fkj)"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/axisTokenEditText"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginHorizontal="32dp"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:gravity="start"
+            android:hint="Axis Token Example.(zWB4x0h6NmQswY6d65z4uOhfbgehmtCSnNScfAaFhcLtmS_bgDaTjbXTVBzRLAbs3_v8waiOJrInnpU3jCzACCuhs8EOaSkJnQPIe-8GSJhnIE_qJWlTwCZXL3Rt8cKF1IpLgup5ngfeoH2tpslm-g4yZgW1s9iPIVth-uC9qdE)"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clientIdEditText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
