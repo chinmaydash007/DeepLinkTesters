@@ -69,6 +69,10 @@ class DeepLinkActivity : AppCompatActivity(), DeepLinkListener {
             DeepLink(
                 "https://vsyt.me/offline-consults",
                 "Offline Consultation Vertical Page"
+            ),
+            DeepLink(
+                "https://vsyt.me/labs-ahc",
+                "Labs AHC Page"
             )
         )
     }
