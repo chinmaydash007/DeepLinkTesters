@@ -39,15 +39,15 @@ class DeepLinkActivity : AppCompatActivity(), DeepLinkListener {
     fun getDeepLinkList(): List<DeepLink> {
         return listOf(
             DeepLink(
-                "https://vsyt.me/reimbursment?requestId=81429",
+                "https://vsyt.me/o/reimbursment?requestId=81429",
                 "Opd Reimbursement Status"
             ),
             DeepLink(
-                "https://vsyt.me/hra",
+                "https://vsyt.me/o/hra",
                 "HRA"
             ),
             DeepLink(
-                "https://vsyt.me/consult-gp",
+                "https://vsyt.me/o/consult-gp",
                 "Doc consultation - general physician"
             ),
             DeepLink(
@@ -55,25 +55,45 @@ class DeepLinkActivity : AppCompatActivity(), DeepLinkListener {
                 "Sync wearables"
             ),
             DeepLink(
-                "https://vsyt.me/log-meal",
+                "https://vsyt.me/o/log-meal",
                 "Log meal"
             ),
             DeepLink(
-                "https://vsyt.me/fitness-album",
+                "https://vsyt.me/o/fitness-album",
                 "Album Home"
             ),
             DeepLink(
-                "https://vsyt.me/online-consults",
+                "https://vsyt.me/o/online-consults",
                 "Online Consultation Vertical Page"
             ),
             DeepLink(
-                "https://vsyt.me/offline-consults",
+                "https://vsyt.me/o/offline-consults",
                 "Offline Consultation Vertical Page"
             ),
             DeepLink(
-                "https://vsyt.me/labs-ahc",
+                "https://vsyt.me/o/labs-ahc",
                 "Labs AHC Page"
-            )
+            ),
+            DeepLink(
+                "https://vsyt.me/o/support",
+                "Support"
+            ),
+            DeepLink(
+                "https://vsyt.me/o/album/13",
+                "PodCast Details (Album Id)"
+            ),
+            DeepLink(
+                "https://vsyt.me/o/podcastDetails/22",
+                "PodCast Album Details (Album Id)"
+            ),
+            DeepLink(
+                "https://vsyt.me/o/albumHome",
+                "Album Home"
+            ),
+            DeepLink(
+                "https://vsyt.me/o/podcastHome",
+                "PodCast Home"
+            ),
         )
     }
 }
