@@ -71,7 +71,7 @@ class DeepLinkActivity : AppCompatActivity(), DeepLinkListener {
                 "Offline Consultation Vertical Page"
             ),
             DeepLink(
-                "https://vsyt.me/o/labs-ahc",
+                "https://vsyt.me/o/ahc",
                 "Labs AHC Page"
             ),
             DeepLink(
@@ -80,7 +80,7 @@ class DeepLinkActivity : AppCompatActivity(), DeepLinkListener {
             ),
             DeepLink(
                 "https://vsyt.me/o/album/13",
-                "PodCast Details (Album Id)"
+                "Video Fitness Album Details (Album Id)"
             ),
             DeepLink(
                 "https://vsyt.me/o/podcastDetails/22",
@@ -94,6 +94,27 @@ class DeepLinkActivity : AppCompatActivity(), DeepLinkListener {
                 "https://vsyt.me/o/podcastHome",
                 "PodCast Home"
             ),
-        )
+            DeepLink(
+                "https://vsyt.me/o/consult/280022",
+                "Online Consult Chat Page"
+            ),
+            DeepLink(
+                "https://vsyt.me/o/offline-consults/280022",
+                "Offline Consult Status Page"
+            ),
+            DeepLink(
+                "https://vsyt.me/o/labs",
+                "Lab Home Page"
+            ),
+            DeepLink(
+                "https://vsyt.me/o/labs/123",
+                "Offline Consult Status Page"
+            ),
+            DeepLink(
+                "https://vsyt.me/o/challenges",
+                "Challenges Page"
+            ),
+
+            )
     }
 }
